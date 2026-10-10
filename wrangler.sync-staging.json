@@ -1,0 +1,19 @@
+{
+  "name": "mata-crm-pos-sync-staging",
+  "main": "pos-sync-worker.js",
+  "compatibility_date": "2026-10-10",
+  "workers_dev": false,
+  "observability": {
+    "enabled": true
+  },
+  "vars": {
+    "POS_EXPORT_URL": "https://rmataclothing.pages.dev/internal/crm-export"
+  },
+  "d1_databases": [
+    {
+      "binding": "CRM_DB",
+      "database_name": "matastudiocrm-db",
+      "database_id": "d801f27f-a97b-49c2-8614-58b58727b1a5"
+    }
+  ]
+}
