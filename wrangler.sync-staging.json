@@ -8,5 +8,12 @@
   },
   "vars": {
     "POS_EXPORT_URL": "https://rmataclothing.pages.dev/internal/crm-export"
-  }
+  },
+  "d1_databases": [
+    {
+      "binding": "CRM_DB",
+      "database_name": "matastudiocrm-sync-staging",
+      "database_id": "2d8178d1-e0b1-4b00-9b5f-3af08fb7323b"
+    }
+  ]
 }
